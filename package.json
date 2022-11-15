@@ -1,0 +1,23 @@
+{
+  "name": "soarchain-ts-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "tsc && nodemon dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "genClient": "tsc && nodemon dist/genClientTest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@cosmjs/proto-signing": "^0.29.3",
+    "@cosmjs/stargate": "^0.29.3",
+    "ts-node": "^10.9.1"
+  }
+}
